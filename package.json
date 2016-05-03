@@ -1,0 +1,14 @@
+{
+  "name": "inline-svg-sprite",
+  "version": "1.0.0",
+  "description": "Inlines an SVG sprite and updates references for IE compatablity",
+  "main": "index.js",
+  "keywords": [
+    "inline",
+    "svg",
+    "sprite",
+    "svg4everybody"
+  ],
+  "author": "Dan Tello",
+  "license": "MIT"
+}
