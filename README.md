@@ -1,7 +1,8 @@
+# inline-svg-sprite
+
 ```
 npm install inline-svg-sprite --save-exact
 ```
-
 
 Inspired by https://css-tricks.com/ajaxing-svg-sprite/. Inlines external svgs sprites and updates `xlink:href` attributes in `<use>` tags to reference the inlined svg. 
 
