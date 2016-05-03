@@ -1,5 +1,5 @@
 ```
-npm install --save-exact inline-svg-sprite
+npm install inline-svg-sprite --save-exact
 ```
 
 
