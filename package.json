@@ -1,6 +1,6 @@
 {
   "name": "inline-svg-sprite",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Inlines an SVG sprite and updates references for IE compatablity",
   "main": "index.js",
   "keywords": [

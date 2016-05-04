@@ -2,12 +2,13 @@ var addSvg      = require('./lib/addSvg')
 var updateHrefs = require('./lib/updateHrefs')
 
 module.exports = function inlineSvgSprite(iconPath, iconSelector) {
-  var ajax = new XMLHttpRequest()
-  ajax.open("GET", iconPath, true)
-  ajax.send()
-  ajax.onload = function(e) {
-    addSvg(ajax.responseText)
-    updateHrefs(iconSelector || 'svg.icon')
+  var xhr = new XMLHttpRequest()
+  xhr.open("GET", iconPath, true)
+  xhr.send()
+  xhr.onload = function() {
+    if(xhr.status === 200) {
+      addSvg(xhr.responseText)
+      updateHrefs(iconSelector || 'svg.icon')
+    }
   }
 }
-
