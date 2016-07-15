@@ -8,7 +8,7 @@ Inspired by https://css-tricks.com/ajaxing-svg-sprite/. Inlines external svgs sp
 
 ## Usage
 ```js
-import inlineSvgSprite from 'lib/inline-svg-sprite'
+import inlineSvgSprite from 'inline-svg-sprite'
 
 // For our good friends IE 11 and below :)
 inlineSvgSprite(spritePath, iconSelector)
